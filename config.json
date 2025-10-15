@@ -1,0 +1,36 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 9999,
+    "debug": false
+  },
+  "tools": {
+    "nmap": {
+      "path": "nmap",
+      "timeout": 300,
+      "default_args": ["-T4", "-Pn"]
+    },
+    "gobuster": {
+      "path": "gobuster",
+      "timeout": 600,
+      "wordlist": "/usr/share/wordlists/dirb/common.txt"
+    },
+    "subfinder": {
+      "path": "subfinder",
+      "timeout": 300
+    },
+    "httpx": {
+      "path": "httpx",
+      "timeout": 120
+    }
+  },
+  "reports": {
+    "output_dir": "reports",
+    "formats": ["html", "json", "markdown"]
+  },
+  "limits": {
+    "max_concurrent_scans": 5,
+    "cache_ttl": 3600
+  }
+}
+

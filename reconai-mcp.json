@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "reconai": {
+      "command": "python",
+      "args": [
+        "/path/to/reconai/recon_mcp.py",
+        "--server",
+        "http://localhost:9999"
+      ],
+      "description": "ReconAI - AI-Powered Information Gathering Tool for reconnaissance and security testing",
+      "timeout": 300,
+      "disabled": false
+    }
+  }
+}
+

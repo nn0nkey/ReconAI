@@ -1,0 +1,17 @@
+# ReconAI - AI-Powered Information Gathering Tool
+# Minimal dependencies for reconnaissance and reporting
+
+# Core Framework
+flask>=3.0.0
+requests>=2.31.0
+fastmcp>=0.2.0
+
+# System Utilities
+psutil>=5.9.0
+
+# Report Generation
+jinja2>=3.1.0
+markdown>=3.5.0
+
+# Optional: Web scraping
+beautifulsoup4>=4.12.0
